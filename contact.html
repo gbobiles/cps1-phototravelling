@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scake=1.0, maximum-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="IE-Edge">
+	<link rel="stylesheet" type="text/css" href="assets/styles/animate.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="assets/styles/style.css">
+
+	<title>Contact Page</title>
+
+	<link rel="stylesheet" type="text/css" href="assets/styles/bootstrap.min.css">
+	<script type="text/javascript" src="assets/js/jquery-3.3.1.min.js"></script>
+	<script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="assets/js/popper.min.js"></script>
+</head>
+<body>
+	<nav class="navbar navbar-expand-lg bg-orange navbar-light">
+		<a class="navbar-brand" href="index.html"><i class="fas fa-camera-retro"></i></a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+
+		<div class="collapse navbar-collapse" id="navbarSupportedContent">
+			<ul class="navbar-nav mr-auto">
+				<li class="nav-item">
+					<a class="nav-link" href="home.html">Home</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="about.html">About</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="contact.html">Contact Us</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="gallery.html">Gallery</a>
+				</li>
+			</ul>
+			<form class="form-inline my-2 my-lg-0">
+				<input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+				<button class="btn my-2 my-sm-0" id="bg-bb" type="submit">Search</button>
+			</form>
+		</div>
+	</nav>
+	<!-- end of nav -->
+
+	<div class="container-fluid main-height text-center" id="contact-bg">
+		<main>
+			<div class=" container-fluid pt-3">
+				<img class="img-fluid" src="assets/images/banner-contact.jpg">
+			</div>
+			<div class="row py-4 mx-auto">
+				<div class="col-lg-6 col-sm-12 col-md-12">
+					<form>
+						<div class="form-group">
+							<input type="text" class="form-control" id="InputUsername" placeholder=" Username">
+						</div>
+						<div class="form-group">
+							<input type="email" class="form-control" id="email" placeholder="Enter email">
+						</div>
+						<div class="form-group">
+							<input type="number" class="form-control" id="contact-number" placeholder="Contact Number">
+						</div>
+						<div class="form-group">				
+							<textarea class="form-control" id="contact-message" rows="7" placeholder="Your message:"></textarea>
+						</div>
+					</form>
+					<button type="submit" class="btn btn-bb mb-2 btn-block" data-toggle="modal" data-target="#submitmodal">Submit</button>
+
+					<!-- Modal -->
+					<div class="modal fade" id="submitmodal" tabindex="-1" role="dialog" aria-labelledby="submitmodalLabel" aria-hidden="true">
+						<div class="modal-dialog" role="document">
+							<div class="modal-content">
+								<div class="modal-header">
+									<h5 class="modal-title" id="submitmodalLabel">This page is Under Construction</h5>
+									<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+										<span aria-hidden="true">&times;</span>
+									</button>
+								</div>
+								<div class="modal-body">
+									Submit button not yet working, please contact me directly at geraldbobiles@gmail.com
+								</div>
+								<div class="modal-footer">
+									<button type="button" class="btn btn-bb" data-dismiss="modal">Close</button>
+									<button type="button" class="btn btn-dark"><a href="mailto:geraldbobiles@gmail.com" class="text-warning">Contact Me</a></button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-6 col-md-12 col-sm-12 map-responsive">
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3862.201694286414!2d121.0594766143876!3d14.530452682688436!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397c9c919d3bf89%3A0x3d3fbc6aa8700f4f!2sGrace+Residences+Tower+4!5e0!3m2!1sen!2sph!4v1544437502914" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+				</div>		
+			</div>
+		</main>
+	</div>
+	<footer class="container-fluid bg-bb text-center" id="footer">
+		<small>Gerald Bobiles | 2018 &copy</small>
+	</footer>
+</body>
+</html>

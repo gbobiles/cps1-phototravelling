@@ -22,7 +22,7 @@
 	color: black;
 }
 
-#bg-bb, .bg-bb {
+#bg-bb {
 	background-color: #89f0de;
 	color: #6c757d;
 }
@@ -51,9 +51,10 @@
 
 .column {
 	border-radius: 10px;
-	overflow: hidden;
 	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
 	transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+	min-height: 500px;
+	max-height: 100%;
 }
 
 .column:hover {
@@ -64,5 +65,32 @@
 	padding: 60px 0;
 }
 
+.main-height {
+	min-height: calc(100vh - 40px);
+}
+ .map-responsive {
+    overflow:hidden;
+    padding-bottom:56.25%;
+    height:0;
+    
+}
 
+.map-responsive iframe{
+    left:0;
+    top:0;
+    max-height:100%;
+    max-width: 100%;
+    position: absolute;
+}
 
+#footer {
+	height: 20px;
+}
+
+#contact-bg {
+	background: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.3)), url("../images/contact-bg.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+}
+ 
