@@ -62,25 +62,25 @@
 }
 
 .padding {
-	padding: 60px 0;
+	padding: 30px 0;
 }
 
 .main-height {
 	min-height: calc(100vh - 40px);
 }
- .map-responsive {
-    overflow:hidden;
-    padding-bottom:56.25%;
-    height:0;
-    
+.map-responsive {
+	overflow:hidden;
+	padding-bottom:56.25%;
+	height:0;
+
 }
 
 .map-responsive iframe{
-    left:0;
-    top:0;
-    max-height:100%;
-    max-width: 100%;
-    position: absolute;
+	left:0;
+	top:0;
+	max-height:100%;
+	max-width: 100%;
+	position: absolute;
 }
 
 #footer {
@@ -93,4 +93,83 @@
 	background-size: cover;
 	background-position: center center;
 }
- 
+
+#parallax-banner {
+	background-image: url("../images/prlx-banner.jpg");
+	height: 500px; 
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#parallax-author {
+	background-image: url("../images/prlx-author.jpg");
+	height: 500px; 
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#author-bg {
+	background: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.3));
+	margin-top: 30px;
+	color: white;
+}
+
+#parallax-mission {
+	background-image:url("../images/prlx-msn.jpg");
+	height: 600px; 
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: white;
+	padding: 5px;
+	position: relative;
+}
+
+#parallax-vision {
+	background-image: url("../images/prlx-vsn.jpg");
+	height: 600px; 
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: white;
+	padding: 5px;
+	position: relative;
+	max-height: 100vh;
+}
+
+#parallax-about {
+	background-image: url("../images/prlx-about.jpg");
+	height: 600px; 
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: white;
+	position: relative;
+}
+
+.vertical-align {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+#vision-bg, #about-bg, #mission-bg {
+	background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5));
+	margin-top: 30px;
+	padding: 10px;
+	border-radius: 10px;
+
+}
+
+.img-thumbnail-size {
+	height: 300px;
+	width:300px;
+}
