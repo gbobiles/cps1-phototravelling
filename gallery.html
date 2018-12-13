@@ -14,11 +14,13 @@
 	<script type="text/javascript" src="assets/js/jquery-3.3.1.min.js"></script>
 	<script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
 	<script type="text/javascript" src="assets/js/popper.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="assets/styles/lightbox.css">
+
 
 </head>
 <body>
 	<nav class="navbar navbar-expand-lg bg-orange navbar-light">
-		<a class="navbar-brand" href="index.html"><i class="fas fa-camera-retro"></i></a>
+		<a class="navbar-brand" href="index.html"><i class="fas fa-camera-retro" id="fas"></i></a>
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 			<span class="navbar-toggler-icon"></span>
 		</button>
@@ -45,114 +47,101 @@
 		</div>
 	</nav>
 
-	<div class="text-center">
-		<h1>Gallery</h1>
-		<p>This is the highlight of the page | Come browse through these breathtaking images</p>
-	</div>
-	<div class="container-fluid main-height">
-		<div class="row">
-			<div class="col-4">
-				<a data-toggle="modal" data-target="#g1">
-					<img src="assets/images/prlx-dummy.jpg" alt="image1" class="img-thumbnail img-fluid">
-				</a>
-			</div>
-			<div class="col-4">
-				<a data-toggle="modal" data-target="#g1">
-					<img src="assets/images/prlx-dummy.jpg" alt="image1" class="img-thumbnail img-fluid">
-				</a>
-			</div>
-			<div class="col-4">
-				<a data-toggle="modal" data-target="#g1">
-					<img src="assets/images/prlx-dummy.jpg" alt="image1" class="img-thumbnail img-fluid">
-				</a>
-			</div>
-			<div class="col-4">
-				<a data-toggle="modal" data-target="#g1">
-					<img src="assets/images/prlx-dummy.jpg" alt="image1" class="img-thumbnail img-fluid">
-				</a>
-			</div>
-			<div class="col-4">
-				<a data-toggle="modal" data-target="#g1">
-					<img src="assets/images/prlx-dummy.jpg" alt="image1" class="img-thumbnail img-fluid">
-				</a>
-			</div>
-			<div class="col-4">
-				<a data-toggle="modal" data-target="#g1">
-					<img src="assets/images/prlx-dummy.jpg" alt="image1" class="img-thumbnail img-fluid">
-				</a>
+	<div class="main-height">
+		<div class="text-center" id="gal-bg">
+			<div class="vertical-align">
+				<h1>Gallery</h1>
+				<p>This is the highlight of the page | Come browse through these breathtaking images</p>
 			</div>
 		</div>
-	</div>
+		<div>
+			<blockquote class="blockquote text-center py-5">
+				<p class="mb-0">Don't watch the clock; do what it does. Keep going.</p>
+				<footer class="blockquote-footer">Sam Levenson in <cite title="Source Title">BrainyQuote.com</cite></footer>
+			</blockquote>
+			
+		</div>
 
-	<!-- modal -->
-	<div class="modal fade" id="g1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-		<div class="modal-dialog" role="document">
-			<div class="modal-content">
-				<div class="modal-body">
-					<img src="assets/images/prlx-dummy.jpg" alt="image1" class=" img-fluid">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-md-6 col-lg-4 p-0 container-hover">
+					<img src="assets/images/img1.jpg" class="img-fluid image">
+					<div class="middle">
+						<div class="text"><a href="assets/images/img1.jpg" data-lightbox="gallery" class="text-dark"><i class="fas fa-eye"></i></a></div>
+					</div>
+				</div>
+				<div class="col-md-6 col-lg-4 p-0 container-hover">
+					<img src="assets/images/img2.jpeg" class="img-fluid image">
+					<div class="middle">
+						<div class="text"><a href="assets/images/img2.jpeg" data-lightbox="gallery" class="text-dark"><i class="fas fa-eye"></i></a></div>
+					</div>
+				</div>
+				<div class="col-md-6 col-lg-4 p-0 container-hover">
+					<img src="assets/images/img3.jpeg" class="img-fluid image">
+					<div class="middle">
+						<div class="text"><a href="assets/images/img3.jpeg" data-lightbox="gallery" class="text-dark"><i class="fas fa-eye"></i></a></div>
+					</div>
+				</div>
+				<div class="col-md-6 col-lg-4 p-0 container-hover">
+					<img src="assets/images/img4.jpeg" class="img-fluid image">
+					<div class="middle">
+						<div class="text"><a href="assets/images/img4.jpeg" data-lightbox="gallery" class="text-dark"><i class="fas fa-eye"></i></a></div>
+					</div>
+				</div>
+				<div class="col-md-6 col-lg-4 p-0 container-hover">
+					<img src="assets/images/img5.jpeg" class="img-fluid image">
+					<div class="middle">
+						<div class="text"><a href="assets/images/img5.jpeg" data-lightbox="gallery" class="text-dark"><i class="fas fa-eye"></i></a></div>
+					</div>
+				</div>
+				<div class="col-md-6 col-lg-4 p-0 container-hover">
+					<img src="assets/images/img6.jpeg" class="img-fluid image">
+					<div class="middle">
+						<div class="text"><a href="assets/images/img6.jpeg" data-lightbox="gallery" class="text-dark"><i class="fas fa-eye"></i></a></div>
+					</div>
+				</div>
+				<div class="col-md-6 col-lg-4 p-0 container-hover">
+					<img src="assets/images/img7.jpeg" class="img-fluid image">
+					<div class="middle">
+						<div class="text"><a href="assets/images/img7.jpeg" data-lightbox="gallery" class="text-dark"><i class="fas fa-eye"></i></a></div>
+					</div>
+				</div>
+				<div class="col-md-6 col-lg-4 p-0 container-hover">
+					<img src="assets/images/img8.jpeg" class="img-fluid image">
+					<div class="middle">
+						<div class="text"><a href="assets/images/img8.jpeg" data-lightbox="gallery" class="text-dark"><i class="fas fa-eye"></i></a></div>
+					</div>
+				</div>
+				<div class="col-md-6 col-lg-4 p-0 container-hover">
+					<img src="assets/images/img9.jpeg" class="img-fluid image">
+					<div class="middle">
+						<div class="text"><a href="assets/images/img9.jpeg" data-lightbox="gallery" class="text-dark"><i class="fas fa-eye"></i></a></div>
+					</div>
+				</div>
+				<div class="col-md-6 col-lg-4 p-0 container-hover">
+					<img src="assets/images/img10.jpeg" class="img-fluid image">
+					<div class="middle">
+						<div class="text"><a href="assets/images/img10.jpeg" data-lightbox="gallery" class="text-dark"><i class="fas fa-eye"></i></a></div>
+					</div>
+				</div>
+				<div class="col-md-6 col-lg-4 p-0 container-hover">
+					<img src="assets/images/img11.jpeg" class="img-fluid image">
+					<div class="middle">
+						<div class="text"><a href="assets/images/img11.jpeg" data-lightbox="gallery" class="text-dark"><i class="fas fa-eye"></i></a></div>
+					</div>
+				</div>
+				<div class="col-md-6 col-lg-4 p-0 container-hover">
+					<img src="assets/images/img12.jpeg" class="img-fluid image">
+					<div class="middle">
+						<div class="text"><a href="assets/images/img12.jpeg" data-lightbox="gallery" class="text-dark"><i class="fas fa-eye"></i></a></div>
+					</div>
 				</div>
 			</div>
 		</div>
 	</div>
-	<div class="modal fade" id="g1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-		<div class="modal-dialog" role="document">
-			<div class="modal-content">
-				<div class="modal-body">
-					<img src="assets/images/prlx-dummy.jpg" alt="image1" class=" img-fluid">
-				</div>
-			</div>
-		</div>
-	</div>
-	<div class="modal fade" id="g1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-		<div class="modal-dialog" role="document">
-			<div class="modal-content">
-				<div class="modal-body">
-					<img src="assets/images/prlx-dummy.jpg" alt="image1" class=" img-fluid">
-				</div>
-			</div>
-		</div>
-	</div>
-	<div class="modal fade" id="g1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-		<div class="modal-dialog" role="document">
-			<div class="modal-content">
-				<div class="modal-body">
-					<img src="assets/images/prlx-dummy.jpg" alt="image1" class=" img-fluid">
-				</div>
-			</div>
-		</div>
-	</div>
-	<div class="modal fade" id="g1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-		<div class="modal-dialog" role="document">
-			<div class="modal-content">
-				<div class="modal-body">
-					<img src="assets/images/prlx-dummy.jpg" alt="image1" class=" img-fluid">
-				</div>
-			</div>
-		</div>
-	</div>
-	<div class="modal fade" id="g1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-		<div class="modal-dialog" role="document">
-			<div class="modal-content">
-				<div class="modal-body">
-					<img src="assets/images/prlx-dummy.jpg" alt="image1" class=" img-fluid">
-				</div>
-			</div>
-		</div>
-	</div>
-	<div class="modal fade" id="g1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-		<div class="modal-dialog" role="document">
-			<div class="modal-content">
-				<div class="modal-body">
-					<img src="assets/images/prlx-dummy.jpg" alt="image1" class=" img-fluid">
-				</div>
-			</div>
-		</div>
-	</div>
-
-	<!-- end of modal -->
-
 	<footer class="container-fluid bg-bb text-center" id="footer">
 		<small>Gerald Bobiles | 2018 &copy</small>
 	</footer>
+	<script type="text/javascript" src="assets/js/lightbox.js"></script>
 </body>
 </html>

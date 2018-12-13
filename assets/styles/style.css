@@ -36,7 +36,7 @@
 	font-size: 20px;
 }
 
-.fas {
+#fas {
 	color: #89f0de;
 	font-size: 30px;
 }
@@ -173,3 +173,53 @@
 	height: 300px;
 	width:300px;
 }
+
+#gal-bg {
+	background: url(../images/gal-bg.jpeg);
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 500px;
+	color: white;
+	position: relative;
+}
+
+/*hover*/
+.container-hover {
+  position: relative;
+}
+
+.image {
+  opacity: 1;
+  display: block;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.container-hover:hover .image {
+  opacity: 0.3;
+}
+
+.container-hover:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  /*background-color: #f0aa89;*/
+  font-size: 25px;
+  padding: 16px 32px;
+  border-radius: 50%;
+}
+/*end hover*/

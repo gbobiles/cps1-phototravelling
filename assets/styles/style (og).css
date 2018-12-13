@@ -1,0 +1,175 @@
+
+
+#landing {
+	background: url("../images/bg-landing.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	height: 100%;
+	width: 100%;
+}
+
+#landing-page {
+	color: #faebd7;
+	background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5));
+	height: 100vh;
+	width: 100%;
+
+}
+
+.btn-bb {
+	background: #89f0de;
+	color: black;
+}
+
+#bg-bb {
+	background-color: #89f0de;
+	color: #6c757d;
+}
+
+.baby-blue {
+	color: #89f0de;
+}
+
+.fab {
+	color: #89f0de;
+	font-size: 20px;
+}
+
+.fas {
+	color: #89f0de;
+	font-size: 30px;
+}
+
+.bg-orange {
+	background: #f0aa89;
+}
+
+.bg-bb {
+	background: #89f0de;
+}
+
+.column {
+	border-radius: 10px;
+	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+	transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+	min-height: 500px;
+	max-height: 100%;
+}
+
+.column:hover {
+	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.padding {
+	padding: 30px 0;
+}
+
+.main-height {
+	min-height: calc(100vh - 40px);
+}
+.map-responsive {
+	overflow:hidden;
+	padding-bottom:56.25%;
+	height:0;
+
+}
+
+.map-responsive iframe{
+	left:0;
+	top:0;
+	max-height:100%;
+	max-width: 100%;
+	position: absolute;
+}
+
+#footer {
+	height: 20px;
+}
+
+#contact-bg {
+	background: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.3)), url("../images/contact-bg.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+}
+
+#parallax-banner {
+	background-image: url("../images/prlx-banner.jpg");
+	height: 500px; 
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#parallax-author {
+	background-image: url("../images/prlx-author.jpg");
+	height: 500px; 
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#author-bg {
+	background: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.3));
+	margin-top: 30px;
+	color: white;
+}
+
+#parallax-mission {
+	background-image:url("../images/prlx-msn.jpg");
+	height: 600px; 
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: white;
+	padding: 5px;
+	position: relative;
+}
+
+#parallax-vision {
+	background-image: url("../images/prlx-vsn.jpg");
+	height: 600px; 
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: white;
+	padding: 5px;
+	position: relative;
+	max-height: 100vh;
+}
+
+#parallax-about {
+	background-image: url("../images/prlx-about.jpg");
+	height: 600px; 
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: white;
+	position: relative;
+}
+
+.vertical-align {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+#vision-bg, #about-bg, #mission-bg {
+	background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5));
+	margin-top: 30px;
+	padding: 10px;
+	border-radius: 10px;
+
+}
+
+.img-thumbnail-size {
+	height: 300px;
+	width:300px;
+}
