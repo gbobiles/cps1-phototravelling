@@ -19,7 +19,7 @@
 	<script type="text/javascript" src="assets/js/popper.min.js"></script>
 </head>
 <body>
-	<nav class="navbar navbar-expand-lg bg-orange navbar-light">
+	<nav class="navbar sticky-top navbar-expand-lg bg-dark navbar-dark">
 		<a class="navbar-brand" href="index.html"><i class="fas fa-camera-retro" id="fas"></i></a>
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 			<span class="navbar-toggler-icon"></span>
@@ -33,8 +33,8 @@
 				<li class="nav-item">
 					<a class="nav-link" href="about.html">About</a>
 				</li>
-				<li class="nav-item active bg-bb rounded">
-					<a class="nav-link" href="contact.html">Contact Us</a>
+				<li class="nav-item active bg-warning rounded">
+					<a class="nav-link" href="contact.html" id="black">Contact Us</a>
 				</li>
 				<li class="nav-item">
 					<a class="nav-link" href="gallery.html">Gallery</a>
@@ -42,7 +42,7 @@
 			</ul>
 			<form class="form-inline my-2 my-lg-0">
 				<input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-				<button class="btn my-2 my-sm-0" id="bg-bb" type="submit">Search</button>
+				<button class="btn my-2 my-sm-0 bg-warning" type="submit">Search</button>
 			</form>
 		</div>
 	</nav>
@@ -51,14 +51,13 @@
 	<div class="container-fluid main-height text-center" id="contact-bg">
 		<main>
 			<div class=" container-fluid pt-3">
-				<h1 class="font-1">Contact Us <i class="fas fa-comment-alt"></i></h1>
+				<h1 class="font-1 text-light">Contact Us <i class="fas fa-comment-alt"></i></h1>
 				<hr class="my-3 bg-light">
 			</div>
 			<div class="row py-4 mx-auto">
 
 				<div class="col-lg-6 col-sm-12 col-md-12">
 					<form>
-						<img class="img-fluid pb-2" src="assets/images/banner-contact.jpg">
 
 						<div class="form-group">
 							<input type="text" class="form-control" id="InputUsername" placeholder=" Username">
@@ -73,7 +72,7 @@
 							<textarea class="form-control" id="contact-message" rows="7" placeholder="Your message:"></textarea>
 						</div>
 					</form>
-					<button type="submit" class="btn btn-bb mb-2 btn-block" data-toggle="modal" data-target="#submitmodal">Submit</button>
+					<button type="submit" class="btn bg-warning mb-2 btn-block" data-toggle="modal" data-target="#submitmodal">Submit</button>
 
 					<!-- Modal -->
 					<div class="modal fade" id="submitmodal" tabindex="-1" role="dialog" aria-labelledby="submitmodalLabel" aria-hidden="true">
@@ -97,12 +96,12 @@
 					</div>
 				</div>
 				<div class="col-lg-6 col-md-12 col-sm-12 map-responsive">
-					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3862.201694286414!2d121.0594766143876!3d14.530452682688436!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397c9c919d3bf89%3A0x3d3fbc6aa8700f4f!2sGrace+Residences+Tower+4!5e0!3m2!1sen!2sph!4v1544437502914" width="100%" height="482" frameborder="0" style="border:0" allowfullscreen></iframe>
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3862.201694286414!2d121.0594766143876!3d14.530452682688436!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397c9c919d3bf89%3A0x3d3fbc6aa8700f4f!2sGrace+Residences+Tower+4!5e0!3m2!1sen!2sph!4v1544437502914" width="100%" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
 				</div>		
 			</div>
 		</main>
 	</div>
-	<footer class="container-fluid bg-bb text-center" id="footer">
+	<footer class="container-fluid bg-dark text-warning text-center" id="footer">
 		<small>Gerald Bobiles | 2018 &copy</small>
 	</footer>
 </body>

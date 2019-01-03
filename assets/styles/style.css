@@ -37,7 +37,7 @@
 }
 
 #fas {
-	color: #89f0de;
+	/*color: #89f0de;*/
 	font-size: 30px;
 }
 
@@ -92,7 +92,6 @@
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center center;
-	color: #fffff0;
 }
 
 #parallax-banner {
@@ -111,12 +110,15 @@
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
+	position: relative;
 }
 
 #author-bg {
-	background: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.3));
+	background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5));
 	margin-top: 30px;
 	color: white;
+	width: 70%;
+	border-radius: 10px;
 }
 
 #parallax-mission {
@@ -226,9 +228,10 @@
 /*end hover*/
 
 #blockquote-1, #blockquote-2, #blockquote-3, #blockquote-4 {
-	background: #fffff0;
+	background: #ffc107;
 	margin-bottom: 0;
 	font-style: italic;
+	font-size: 25px;
 }
 
 .font-1 {
@@ -244,3 +247,31 @@ background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5));
 	border-radius: 10px;
 	width: 100%
 }
+
+#black	 {
+	color: black;
+}
+
+#hero-bg {
+	background-image: url("../images/hero-bg.jpeg");
+	height: 600px; 
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: white;
+	position: relative;
+	padding: 0;
+}
+
+#hero {
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,ffffff+100&1+0,0+100;White+to+Transparent */
+background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#00ffffff',GradientType=0 ); /* IE6-9 */
+height: 50%;
+
+
+}
+

@@ -19,7 +19,7 @@
 	<script type="text/javascript" src="assets/js/popper.min.js"></script>
 </head>
 <body>
-	<nav class="navbar navbar-expand-lg bg-orange navbar-light">
+	<nav class="navbar sticky-top navbar-expand-lg bg-dark navbar-dark">
 		<a class="navbar-brand" href="index.html"><i class="fas fa-camera-retro" id="fas"></i></a>
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 			<span class="navbar-toggler-icon"></span>
@@ -27,8 +27,8 @@
 
 		<div class="collapse navbar-collapse" id="navbarSupportedContent">
 			<ul class="navbar-nav mr-auto">
-				<li class="nav-item active bg-bb rounded">
-					<a class="nav-link" href="home.html">Home</a>
+				<li class="nav-item active bg-warning rounded">
+					<a class="nav-link" href="home.html" id="black">Home</a>
 				</li>
 				<li class="nav-item">
 					<a class="nav-link" href="about.html">About</a>
@@ -42,12 +42,12 @@
 			</ul>
 			<form class="form-inline my-2 my-lg-0">
 				<input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-				<button class="btn my-2 my-sm-0" id="bg-bb" type="submit">Search</button>
+				<button class="btn my-2 my-sm-0 bg-warning" type="submit">Search</button>
 			</form>
 		</div>
 	</nav>
 	<!-- end of nav -->
-	<div id="carouselExampleIndicators" class="carousel slide bg-orange" data-ride="carousel">
+	<!-- <div id="carouselExampleIndicators" class="carousel slide bg-orange" data-ride="carousel">
 		<ol class="carousel-indicators">
 			<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
 			<li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -72,11 +72,23 @@
 			<span class="carousel-control-next-icon" aria-hidden="true"></span>
 			<span class="sr-only">Next</span>
 		</a>
-	</div>
+	</div> -->
 	<!-- end of carousel -->
+
+	<div class="container-fluid" id="hero-bg">
+		<div class="container-fluid p-3 text-center" id="hero">
+			<div class="vertical-align">
+			<h2 class="font-1" id="black">WELCOME</h2>
+			<h1 class="font-1">Start Your Journey Now</h1>	
+		</div>
+		</div>
+		
+	</div>
+
 
 	<div>
 		<blockquote class="blockquote text-center py-5" id="blockquote-4">
+			<i class="fas fa-quote-left"></i>
 			<p class="mb-0 px-2">If you want to conquer fear, don't sit home and think about it. Go out and get busy.</p>
 			<footer class="blockquote-footer">Dale Carnegie in <cite title="Source Title">BrainyQuote.com</cite></footer>
 		</blockquote>
@@ -90,9 +102,9 @@
 	</div>
 	<!-- end of parallax-banner -->
 
-	<div class="container-fluid bg-orange clearfix">
+	<div class="container-fluid bg-dark clearfix">
 		<div class="float-lg-left col-sm-12 col-lg-4 col-md-12 padding">
-			<div class="text-center btn-bb column">
+			<div class="text-center bg-warning column">
 				<img src="assets/images/g1.jpg" class="rounded img-thumbnail" alt="find peace">
 				<h1 class="font-1">Peace</h1>
 				<figcaption class="mx-2 my-2">In a world where most people live in a busy and bustling cities, peace is almost nowhere to found, while chaos is everywhere. Take seat back and browse through our gallery to obtain that elusive peace.
@@ -100,14 +112,14 @@
 			</div>
 		</div>
 		<div class="float-lg-left col-sm-12 col-lg-4 col-md-12 padding">
-			<div class="text-center btn-bb column">
+			<div class="text-center bg-warning column">
 				<img src="assets/images/g2.jpg" class="rounded img-thumbnail" alt="silence is peace">
 				<h1 class="font-1">Silence</h1>
 				<figcaption class="mx-2 my-2">Silence is the center of peace. When there is too much noise, there will be less peace. Meditation requires silence and that is because through silence you can get inner peace. With the help of our photos and a bit of your immagination, you can picture yourself standing in a silent but breathtaking place.</figcaption>
 			</div>
 		</div>
 		<div class="float-lg-left col-sm-12 col-lg-4 col-md-12 padding">
-			<div class="text-center btn-bb column">
+			<div class="text-center bg-warning column">
 				<img src="assets/images/g3.jpg" class="rounded img-thumbnail" alt="life is beautiful">
 				<h1 class="font-1">Beauty</h1>
 				<figcaption class="mx-2 my-2">Beauty can be found anywhere, you simply has to appreciate things around you, wether it is a scenery, weather, emotions or a thing, you'll see beauty from it. Take a look at our gallery, to see beauty like nothing else.</figcaption>
@@ -116,8 +128,8 @@
 	</div>
 	<!-- end of columns -->
 
-	<div class="container-fluid" id="parallax-author">
-		<div class="col-lg-6 col-sm-12 col-md-12 text-left py-5 float-right container-fluid rounded	" id="author-bg">
+	<div class="" id="parallax-author">
+		<div class="text-left py-5 container-fluid mt-0 vertical-align" id="author-bg">
 			<h1 class="font-1">About the dev:</h1>
 			<hr class="my-4 bg-light">
 			<p class="font-weight-bold">Gerald Bobiles, is a full stack, front end and back end dveloper. He wanted to make beautifully designed website that comes with strong functions. He believes that devs like him can change the world, one code at a time!</p>
@@ -125,7 +137,7 @@
 	</div>
 	<!-- end of author banner -->
 
-	<footer class="container-fluid bg-bb text-center">
+	<footer class="container-fluid bg-dark text-center text-warning">
 		<small>Gerald Bobiles | 2018 &copy</small>
 	</footer>
 
